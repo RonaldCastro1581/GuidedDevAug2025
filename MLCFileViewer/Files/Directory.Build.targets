@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/MLCFileViewer/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/MLCFileViewer/Data/**" />
+		<Compile Remove="$(PkgPath)/MLCFileViewer/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/MLCFileViewer/Schemas\**" />
+		<Compile Remove="$(PkgPath)/MLCFileViewer/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLCFileViewer/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLCFileViewer/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLCFileViewer/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLCFileViewer/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLCFileViewer/Resources/**" />
+		<None Remove="$(PkgPath)/MLCFileViewer/Assemblies/**" />
+		<None Remove="$(PkgPath)/MLCFileViewer/Data/**" />
+		<None Remove="$(PkgPath)/MLCFileViewer/SqlScripts/**" />
+		<None Remove="$(PkgPath)/MLCFileViewer/Schemas/**" />
+		<None Remove="$(PkgPath)/MLCFileViewer/Resources/**" />
+  </ItemGroup>
+</Project>

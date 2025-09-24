@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "5a17c3b3-3385-46b1-8f66-5efb5d5b991c",
+    "Name": "UsrOnboardingClientes_Detail",
+    "ModifiedOnUtc": "\/Date(1758116679000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Onboarding Clientes detail",
+    "DependsOn": []
+  }
+}

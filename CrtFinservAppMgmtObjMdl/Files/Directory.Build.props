@@ -1,0 +1,24 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/AppForm/AppForm.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/AppForm/AppForm.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/AppFormObligation/AppFormObligation.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/AppFormObligation/AppFormObligation.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/AppFormProperty/AppFormProperty.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/AppFormProperty/AppFormProperty.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/AppFormReasonForClosing/AppFormReasonForClosing.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/AppFormReasonForClosing/AppFormReasonForClosing.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/AppFormStatus/AppFormStatus.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/AppFormStatus/AppFormStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/ApplicationOrigin/ApplicationOrigin.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/ApplicationOrigin/ApplicationOrigin.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/CaseConsultationTheme/CaseConsultationTheme.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/CaseConsultationTheme/CaseConsultationTheme.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/ContactAddress/ContactAddress.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/ContactAddress/ContactAddress.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/DocListInFinApp/DocListInFinApp.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/DocListInFinApp/DocListInFinApp.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/EvaluationHistory/EvaluationHistory.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/EvaluationHistory/EvaluationHistory.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/FinApplication/FinApplication.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/FinApplication/FinApplication.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/FinApplicationReasonForClosing/FinApplicationReasonForClosing.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/FinApplicationReasonForClosing/FinApplicationReasonForClosing.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/FinApplicationSigningStatus/FinApplicationSigningStatus.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/FinApplicationSigningStatus/FinApplicationSigningStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/FinAppStatus/FinAppStatus.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/FinAppStatus/FinAppStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/IdentificationRejectionReason/IdentificationRejectionReason.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/IdentificationRejectionReason/IdentificationRejectionReason.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/IdentificationStatus/IdentificationStatus.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/IdentificationStatus/IdentificationStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/IncomeAndExpenseInAppForm/IncomeAndExpenseInAppForm.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/IncomeAndExpenseInAppForm/IncomeAndExpenseInAppForm.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/Insurance/Insurance.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/Insurance/Insurance.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/Loan/Loan.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/Loan/Loan.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/ParticipantRole/ParticipantRole.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmtObjMdl/Schemas/ParticipantRole/ParticipantRole.cs')" />
+	</ItemGroup>
+</Project>

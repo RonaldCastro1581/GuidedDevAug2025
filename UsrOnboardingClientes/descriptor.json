@@ -1,0 +1,18 @@
+﻿{
+  "Descriptor": {
+    "UId": "c7c549a2-c582-4e58-8b55-d209611bf34d",
+    "Name": "UsrOnboardingClientes",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1731959136000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrOnboardingClientes.csproj",
+    "DependsOn": [
+      {
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCore",
+        "Type": 1
+      }
+    ]
+  }
+}

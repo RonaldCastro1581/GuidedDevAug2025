@@ -1,0 +1,8 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmt/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmt/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmt/Schemas/BankAccount/BankAccount.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmt/Schemas/BankAccount/BankAccount.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmt/Schemas/Insurance/Insurance.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmt/Schemas/Insurance/Insurance.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmt/Schemas/Loan/Loan.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmt/Schemas/Loan/Loan.cs')" />
+	</ItemGroup>
+</Project>

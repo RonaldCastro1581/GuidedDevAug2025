@@ -1,0 +1,49 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppForm/AppForm.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppForm/AppForm.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppFormAddress/AppFormAddress.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppFormAddress/AppFormAddress.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppFormCareer/AppFormCareer.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppFormCareer/AppFormCareer.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppFormCommunication/AppFormCommunication.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppFormCommunication/AppFormCommunication.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppFormFile/AppFormFile.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppFormFile/AppFormFile.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppFormFolder/AppFormFolder.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppFormFolder/AppFormFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppFormInFolder/AppFormInFolder.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppFormInFolder/AppFormInFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppFormInTag/AppFormInTag.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppFormInTag/AppFormInTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppFormMainContact/AppFormMainContact.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppFormMainContact/AppFormMainContact.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppFormObligation/AppFormObligation.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppFormObligation/AppFormObligation.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppFormObligationType/AppFormObligationType.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppFormObligationType/AppFormObligationType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppFormProperty/AppFormProperty.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppFormProperty/AppFormProperty.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppFormTag/AppFormTag.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppFormTag/AppFormTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/ApplicationOrigin/ApplicationOrigin.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/ApplicationOrigin/ApplicationOrigin.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppValidation/AppValidation.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppValidation/AppValidation.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppValidationAnswer/AppValidationAnswer.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppValidationAnswer/AppValidationAnswer.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppValidationItem/AppValidationItem.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppValidationItem/AppValidationItem.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppValidationItemFile/AppValidationItemFile.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppValidationItemFile/AppValidationItemFile.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppValidationQuestion/AppValidationQuestion.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppValidationQuestion/AppValidationQuestion.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppValidationResult/AppValidationResult.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppValidationResult/AppValidationResult.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/AppValQuestionResult/AppValQuestionResult.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/AppValQuestionResult/AppValQuestionResult.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/CollateralObjectType/CollateralObjectType.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/CollateralObjectType/CollateralObjectType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/Contract/Contract.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/Contract/Contract.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/DocListInFinApp/DocListInFinApp.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/DocListInFinApp/DocListInFinApp.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/DocListInFinAppFile/DocListInFinAppFile.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/DocListInFinAppFile/DocListInFinAppFile.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/Document/Document.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/Document/Document.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/FinAppDecision/FinAppDecision.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/FinAppDecision/FinAppDecision.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/FinApplication/FinApplication.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/FinApplication/FinApplication.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/FinApplicationFile/FinApplicationFile.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/FinApplicationFile/FinApplicationFile.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/FinApplicationFolder/FinApplicationFolder.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/FinApplicationFolder/FinApplicationFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/FinApplicationInFolder/FinApplicationInFolder.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/FinApplicationInFolder/FinApplicationInFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/FinApplicationInTag/FinApplicationInTag.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/FinApplicationInTag/FinApplicationInTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/FinApplicationSpec/FinApplicationSpec.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/FinApplicationSpec/FinApplicationSpec.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/FinApplicationTag/FinApplicationTag.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/FinApplicationTag/FinApplicationTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/FinAppStage/FinAppStage.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/FinAppStage/FinAppStage.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/FinAppStatus/FinAppStatus.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/FinAppStatus/FinAppStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/IncomeAndExpenseInAppForm/IncomeAndExpenseInAppForm.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/IncomeAndExpenseInAppForm/IncomeAndExpenseInAppForm.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/IncomeAndExpenseSource/IncomeAndExpenseSource.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/IncomeAndExpenseSource/IncomeAndExpenseSource.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/IncomeOrExpenseType/IncomeOrExpenseType.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/IncomeOrExpenseType/IncomeOrExpenseType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/PropertyType/PropertyType.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/PropertyType/PropertyType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/Qualification/Qualification.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/Qualification/Qualification.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/SpecInAppFormProperty/SpecInAppFormProperty.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/SpecInAppFormProperty/SpecInAppFormProperty.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/SpecInherited/SpecInherited.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/SpecInherited/SpecInherited.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservApplication/Schemas/SpecInPropertyType/SpecInPropertyType.cs" Condition="Exists('$(PkgPath)/CrtFinservApplication/Schemas/SpecInPropertyType/SpecInPropertyType.cs')" />
+	</ItemGroup>
+</Project>

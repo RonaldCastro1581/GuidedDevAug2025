@@ -1,0 +1,33 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/AIInsightsAndAlerts/AIInsightsAndAlerts.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/AIInsightsAndAlerts/AIInsightsAndAlerts.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/AssetType/AssetType.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/AssetType/AssetType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/Contact/Contact.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/Contact/Contact.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/ContactAsset/ContactAsset.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/ContactAsset/ContactAsset.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/ContactExpense/ContactExpense.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/ContactExpense/ContactExpense.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/ContactIncome/ContactIncome.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/ContactIncome/ContactIncome.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/ContactLiability/ContactLiability.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/ContactLiability/ContactLiability.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/ContactVerificationStatus/ContactVerificationStatus.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/ContactVerificationStatus/ContactVerificationStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/Document/Document.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/Document/Document.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/DocumentFile/DocumentFile.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/DocumentFile/DocumentFile.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/DocumentProperty/DocumentProperty.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/DocumentProperty/DocumentProperty.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/DocumentPropertyInRegDocumentType/DocumentPropertyInRegDocumentType.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/DocumentPropertyInRegDocumentType/DocumentPropertyInRegDocumentType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/DocumentPropertyValue/DocumentPropertyValue.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/DocumentPropertyValue/DocumentPropertyValue.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/DocumentType/DocumentType.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/DocumentType/DocumentType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/Evaluation/Evaluation.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/Evaluation/Evaluation.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/EvaluationCheck/EvaluationCheck.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/EvaluationCheck/EvaluationCheck.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/EvaluationCheckHistory/EvaluationCheckHistory.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/EvaluationCheckHistory/EvaluationCheckHistory.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/EvaluationDocumentHistory/EvaluationDocumentHistory.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/EvaluationDocumentHistory/EvaluationDocumentHistory.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/EvaluationHistory/EvaluationHistory.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/EvaluationHistory/EvaluationHistory.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/EvaluationStatus/EvaluationStatus.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/EvaluationStatus/EvaluationStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/EvaluationTemplate/EvaluationTemplate.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/EvaluationTemplate/EvaluationTemplate.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/ExpenseType/ExpenseType.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/ExpenseType/ExpenseType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/Frequency/Frequency.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/Frequency/Frequency.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/IncomeType/IncomeType.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/IncomeType/IncomeType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/LiabilityType/LiabilityType.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/LiabilityType/LiabilityType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/RegDocumentType/RegDocumentType.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/RegDocumentType/RegDocumentType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/TaxableStatus/TaxableStatus.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/TaxableStatus/TaxableStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/VwAIInsightsAndAlerts/VwAIInsightsAndAlerts.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/VwAIInsightsAndAlerts/VwAIInsightsAndAlerts.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/VwDocumentViewModel/VwDocumentViewModel.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360ObjMdl/Schemas/VwDocumentViewModel/VwDocumentViewModel.cs')" />
+	</ItemGroup>
+</Project>

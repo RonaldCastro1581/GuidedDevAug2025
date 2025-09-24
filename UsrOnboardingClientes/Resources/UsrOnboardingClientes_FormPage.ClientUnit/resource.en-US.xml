@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Onboarding Clientes form page" />
+			<Item Name="LocalizableStrings.addRecord_9ewfrme_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.GeneralInfoTab_caption.Value" Value="Datos Iniciales" />
+			<Item Name="LocalizableStrings.TabContainer_3u2h68p_caption.Value" Value="DOCUMENTACION" />
+			<Item Name="LocalizableStrings.TabContainer_hmdw2jb_caption.Value" Value="APROBACION" />
+			<Item Name="LocalizableStrings.TabContainer_kp2ldpv_caption.Value" Value="DATOS BASICOS" />
+			<Item Name="LocalizableStrings.TabContainer_u1hxjn7_caption.Value" Value="VERIFICACION" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,12 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/DocListGroup/DocListGroup.cs" Condition="Exists('$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/DocListGroup/DocListGroup.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/DocListInCondition/DocListInCondition.cs" Condition="Exists('$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/DocListInCondition/DocListInCondition.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/Document/Document.cs" Condition="Exists('$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/Document/Document.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/Product/Product.cs" Condition="Exists('$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/Product/Product.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/ProductCategory/ProductCategory.cs" Condition="Exists('$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/ProductCategory/ProductCategory.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/ProductSubtype/ProductSubtype.cs" Condition="Exists('$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/ProductSubtype/ProductSubtype.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/ProductType/ProductType.cs" Condition="Exists('$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/ProductType/ProductType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/RegDocumentType/RegDocumentType.cs" Condition="Exists('$(PkgPath)/CrtFinservPrdctMgmtObjMdl/Schemas/RegDocumentType/RegDocumentType.cs')" />
+	</ItemGroup>
+</Project>

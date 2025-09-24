@@ -1,0 +1,1 @@
+(self.webpackChunkapp_pkgs_finserv_product_catalog=self.webpackChunkapp_pkgs_finserv_product_catalog||[]).push([[662],{8662:(r,s,a)=>{a.r(s),a.d(s,{TranslateHttpLoader:()=>p});class p{http;prefix;suffix;constructor(t,e="/assets/i18n/",i=".json"){this.http=t,this.prefix=e,this.suffix=i}getTranslation(t){return this.http.get(`${this.prefix}${t}${this.suffix}`)}}}}]);

@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtBaseFinservConsts/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtBaseFinservConsts/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtBaseFinservConsts/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtBaseFinservConsts/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtBaseFinservConsts/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtBaseFinservConsts/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtBaseFinservConsts/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtBaseFinservConsts/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtBaseFinservConsts/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtBaseFinservConsts/Resources/**" />
+		<None Remove="$(PkgPath)/CrtBaseFinservConsts/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtBaseFinservConsts/Data/**" />
+		<None Remove="$(PkgPath)/CrtBaseFinservConsts/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtBaseFinservConsts/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtBaseFinservConsts/Resources/**" />
+  </ItemGroup>
+</Project>

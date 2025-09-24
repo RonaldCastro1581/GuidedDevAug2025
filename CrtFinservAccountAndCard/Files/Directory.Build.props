@@ -1,0 +1,26 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccount/BankAccount.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccount/BankAccount.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccountCloseReason/BankAccountCloseReason.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccountCloseReason/BankAccountCloseReason.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccountFile/BankAccountFile.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccountFile/BankAccountFile.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccountFolder/BankAccountFolder.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccountFolder/BankAccountFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccountInFolder/BankAccountInFolder.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccountInFolder/BankAccountInFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccountInTag/BankAccountInTag.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccountInTag/BankAccountInTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccountStatus/BankAccountStatus.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccountStatus/BankAccountStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccountTag/BankAccountTag.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankAccountTag/BankAccountTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCard/BankCard.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCard/BankCard.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardBankAccount/BankCardBankAccount.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardBankAccount/BankCardBankAccount.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardCategory/BankCardCategory.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardCategory/BankCardCategory.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardFile/BankCardFile.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardFile/BankCardFile.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardFolder/BankCardFolder.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardFolder/BankCardFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardInFolder/BankCardInFolder.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardInFolder/BankCardInFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardInTag/BankCardInTag.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardInTag/BankCardInTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardPaymentSystem/BankCardPaymentSystem.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardPaymentSystem/BankCardPaymentSystem.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardRelated/BankCardRelated.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardRelated/BankCardRelated.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardStatus/BankCardStatus.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardStatus/BankCardStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardTag/BankCardTag.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardTag/BankCardTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardType/BankCardType.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/BankCardType/BankCardType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccountAndCard/Schemas/Transaction/Transaction.cs" Condition="Exists('$(PkgPath)/CrtFinservAccountAndCard/Schemas/Transaction/Transaction.cs')" />
+	</ItemGroup>
+</Project>

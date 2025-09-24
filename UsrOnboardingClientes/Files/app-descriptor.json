@@ -1,0 +1,22 @@
+{
+  "Name": "Onboarding Clientes",
+  "Description": "",
+  "Maintainer": "Customer",
+  "Icon": "PHN2ZyB3aWR0aD0iMzMiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMyAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIyLjUyNSA1LjE1OTU5VjcuMzE4NzNIMjQuMzc3OUMyNS43NDI3IDcuMzE4NzMgMjYuODQ5MSA4LjI5ODM2IDI2Ljg0OTEgOS41MDY3OVYxMS43NTU4TDYuNSAxMS43NjJWOS41MTMwNEM2LjUgOC4zMDQ2MSA3LjYwNjQyIDcuMzI0OTkgOC45NzEyNiA3LjMyNDk5SDEwLjgyNDFWNS4xNTk1OUMxMC44MjQxIDMuNjEzNDcgMTMuMzg4MiAzLjYxMzQ3IDEzLjM4ODIgNS4xNTk1OVY3LjMyNDk5TDE5Ljk2MSA3LjMxODczVjUuMTU5NTlDMTkuOTYxIDMuNjQwMDYgMjIuNTI1IDMuNjI3MDEgMjIuNTI1IDUuMTU5NTlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYuNSAxMy41NTIzTDI2Ljg0OTEgMTMuNTQ2VjIzLjgwNTdDMjYuODQ5MSAyNS4wMTQxIDI1Ljc0MjcgMjUuOTkzOCAyNC4zNzc5IDI1Ljk5MzhMOC45NzEyNiAyNkM3LjYwNjQyIDI2IDYuNSAyNS4wMjA0IDYuNSAyMy44MTE5VjEzLjU1MjNaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K",
+  "IconName": "icon_28.svg",
+  "Color": "#FF8800",
+  "Version": "1.0.0",
+  "RequiredPlatformVersion": "8.3.0",
+  "MarketplaceLink": "",
+  "HelpLink": "",
+  "OrderLink": "",
+  "SupportEmail": "",
+  "DependsOn": [],
+  "Code": "UsrOnboardingClientes",
+  "Packages": [
+    {
+      "UId": "c7c549a2-c582-4e58-8b55-d209611bf34d",
+      "Name": "UsrOnboardingClientes"
+    }
+  ]
+}

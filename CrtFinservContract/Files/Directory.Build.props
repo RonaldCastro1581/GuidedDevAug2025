@@ -1,0 +1,7 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtFinservContract/Schemas/Contract/Contract.cs" Condition="Exists('$(PkgPath)/CrtFinservContract/Schemas/Contract/Contract.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservContract/Schemas/ContractType/ContractType.cs" Condition="Exists('$(PkgPath)/CrtFinservContract/Schemas/ContractType/ContractType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservContract/Schemas/SpecificationInContract/SpecificationInContract.cs" Condition="Exists('$(PkgPath)/CrtFinservContract/Schemas/SpecificationInContract/SpecificationInContract.cs')" />
+	</ItemGroup>
+</Project>

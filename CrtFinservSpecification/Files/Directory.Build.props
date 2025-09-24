@@ -1,0 +1,8 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtFinservSpecification/Schemas/Specification/Specification.cs" Condition="Exists('$(PkgPath)/CrtFinservSpecification/Schemas/Specification/Specification.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservSpecification/Schemas/SpecificationInObject/SpecificationInObject.cs" Condition="Exists('$(PkgPath)/CrtFinservSpecification/Schemas/SpecificationInObject/SpecificationInObject.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservSpecification/Schemas/SpecificationListItem/SpecificationListItem.cs" Condition="Exists('$(PkgPath)/CrtFinservSpecification/Schemas/SpecificationListItem/SpecificationListItem.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservSpecification/Schemas/SpecificationType/SpecificationType.cs" Condition="Exists('$(PkgPath)/CrtFinservSpecification/Schemas/SpecificationType/SpecificationType.cs')" />
+	</ItemGroup>
+</Project>

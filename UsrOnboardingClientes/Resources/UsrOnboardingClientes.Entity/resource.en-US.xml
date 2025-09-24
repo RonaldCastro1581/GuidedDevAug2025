@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Onboarding Clientes" />
+			<Item Name="Columns.UsrColumn2.Caption" Value="Tipo de documento" />
+			<Item Name="Columns.UsrColumn3.Caption" Value="Número Identificación" />
+			<Item Name="Columns.UsrCorreoElectronico.Caption" Value="Correo Electronico" />
+			<Item Name="Columns.UsrName.Caption" Value="Name" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/BANBG_Banisi/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/BANBG_Banisi/Data/**" />
+		<Compile Remove="$(PkgPath)/BANBG_Banisi/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/BANBG_Banisi/Schemas\**" />
+		<Compile Remove="$(PkgPath)/BANBG_Banisi/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/BANBG_Banisi/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/BANBG_Banisi/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/BANBG_Banisi/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/BANBG_Banisi/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/BANBG_Banisi/Resources/**" />
+		<None Remove="$(PkgPath)/BANBG_Banisi/Assemblies/**" />
+		<None Remove="$(PkgPath)/BANBG_Banisi/Data/**" />
+		<None Remove="$(PkgPath)/BANBG_Banisi/SqlScripts/**" />
+		<None Remove="$(PkgPath)/BANBG_Banisi/Schemas/**" />
+		<None Remove="$(PkgPath)/BANBG_Banisi/Resources/**" />
+  </ItemGroup>
+</Project>

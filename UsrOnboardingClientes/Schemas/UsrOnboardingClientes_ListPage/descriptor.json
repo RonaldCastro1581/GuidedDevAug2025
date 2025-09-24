@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "aaaea346-165e-49e6-b04b-1d4edbd835ce",
+    "Name": "UsrOnboardingClientes_ListPage",
+    "ModifiedOnUtc": "\/Date(1758116679000)\/",
+    "Parent": {
+      "UId": "b7b898d0-8c77-4953-c097-23fa6800da02",
+      "Name": "ListPageV3Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Onboarding Clientes list page",
+    "DependsOn": []
+  }
+}

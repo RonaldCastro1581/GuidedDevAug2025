@@ -1,0 +1,36 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/BaseSpecValue/BaseSpecValue.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/BaseSpecValue/BaseSpecValue.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/ChangeCriteria/ChangeCriteria.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/ChangeCriteria/ChangeCriteria.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/ChangeCriteriaInCondition/ChangeCriteriaInCondition.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/ChangeCriteriaInCondition/ChangeCriteriaInCondition.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/ClientTypeForProduct/ClientTypeForProduct.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/ClientTypeForProduct/ClientTypeForProduct.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/DefSpecification/DefSpecification.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/DefSpecification/DefSpecification.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/DocListGroup/DocListGroup.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/DocListGroup/DocListGroup.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/DocListInCondition/DocListInCondition.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/DocListInCondition/DocListInCondition.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/DocumentList/DocumentList.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/DocumentList/DocumentList.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/DocumentListInProduct/DocumentListInProduct.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/DocumentListInProduct/DocumentListInProduct.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/DocumentListStage/DocumentListStage.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/DocumentListStage/DocumentListStage.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/FilterEntityCatalog/FilterEntityCatalog.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/FilterEntityCatalog/FilterEntityCatalog.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/OpportunityCondition/OpportunityCondition.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/OpportunityCondition/OpportunityCondition.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/ParticipantRole/ParticipantRole.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/ParticipantRole/ParticipantRole.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/Product/Product.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/Product/Product.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/ProductCategory/ProductCategory.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/ProductCategory/ProductCategory.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/ProductCategoryKind/ProductCategoryKind.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/ProductCategoryKind/ProductCategoryKind.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/ProductCondition/ProductCondition.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/ProductCondition/ProductCondition.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/ProductInPackage/ProductInPackage.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/ProductInPackage/ProductInPackage.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/ProductKind/ProductKind.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/ProductKind/ProductKind.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/ProductStatus/ProductStatus.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/ProductStatus/ProductStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/ProductType/ProductType.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/ProductType/ProductType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/Specification/Specification.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/Specification/Specification.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/SpecificationInProduct/SpecificationInProduct.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/SpecificationInProduct/SpecificationInProduct.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/SpecificationListItem/SpecificationListItem.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/SpecificationListItem/SpecificationListItem.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/SpecInCondition/SpecInCondition.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/SpecInCondition/SpecInCondition.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/SpecInConditionType/SpecInConditionType.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/SpecInConditionType/SpecInConditionType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/SpecInherited/SpecInherited.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/SpecInherited/SpecInherited.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/SpecTableInherited/SpecTableInherited.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/SpecTableInherited/SpecTableInherited.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/SpecTableValue/SpecTableValue.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/SpecTableValue/SpecTableValue.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/VwFinActiveProduct/VwFinActiveProduct.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/VwFinActiveProduct/VwFinActiveProduct.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservProduct/Schemas/VwProductType/VwProductType.cs" Condition="Exists('$(PkgPath)/CrtFinservProduct/Schemas/VwProductType/VwProductType.cs')" />
+	</ItemGroup>
+</Project>

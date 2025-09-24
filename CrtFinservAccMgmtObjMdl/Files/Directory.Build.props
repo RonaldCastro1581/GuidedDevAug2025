@@ -1,0 +1,15 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/BankAccount/BankAccount.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/BankAccount/BankAccount.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/InstallmentFrequency/InstallmentFrequency.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/InstallmentFrequency/InstallmentFrequency.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/InstallmentType/InstallmentType.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/InstallmentType/InstallmentType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/Insurance/Insurance.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/Insurance/Insurance.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/InsuranceStatus/InsuranceStatus.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/InsuranceStatus/InsuranceStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/InsuranceType/InsuranceType.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/InsuranceType/InsuranceType.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/Loan/Loan.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/Loan/Loan.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/LoanStatus/LoanStatus.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/LoanStatus/LoanStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/PremiumFrequency/PremiumFrequency.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/PremiumFrequency/PremiumFrequency.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/Transaction/Transaction.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/Transaction/Transaction.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/TransactionStatus/TransactionStatus.cs" Condition="Exists('$(PkgPath)/CrtFinservAccMgmtObjMdl/Schemas/TransactionStatus/TransactionStatus.cs')" />
+	</ItemGroup>
+</Project>

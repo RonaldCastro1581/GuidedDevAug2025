@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "0c38ff95-41f1-4618-9f80-1ede09ae4283",
+    "Name": "UsrOnboardingClientesRelatedPage",
+    "ModifiedOnUtc": "\/Date(1758116679000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Onboarding Clientes (Page settings)",
+    "DependsOn": []
+  }
+}

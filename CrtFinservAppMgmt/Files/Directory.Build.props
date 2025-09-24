@@ -1,0 +1,12 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmt/Schemas/AppForm/AppForm.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmt/Schemas/AppForm/AppForm.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmt/Schemas/ContactAddress/ContactAddress.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmt/Schemas/ContactAddress/ContactAddress.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmt/Schemas/DocListInFinApp/DocListInFinApp.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmt/Schemas/DocListInFinApp/DocListInFinApp.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmt/Schemas/DocListInFinAppFile/DocListInFinAppFile.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmt/Schemas/DocListInFinAppFile/DocListInFinAppFile.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmt/Schemas/EvaluationHistory/EvaluationHistory.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmt/Schemas/EvaluationHistory/EvaluationHistory.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmt/Schemas/FinApplication/FinApplication.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmt/Schemas/FinApplication/FinApplication.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmt/Schemas/Insurance/Insurance.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmt/Schemas/Insurance/Insurance.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservAppMgmt/Schemas/Loan/Loan.cs" Condition="Exists('$(PkgPath)/CrtFinservAppMgmt/Schemas/Loan/Loan.cs')" />
+	</ItemGroup>
+</Project>

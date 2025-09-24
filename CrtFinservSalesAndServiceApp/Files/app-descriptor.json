@@ -1,0 +1,104 @@
+﻿{
+    "Name":  "Finserv Sales and Service",
+    "Code":  "FinservSalesAndService",
+    "Description":  "",
+    "Maintainer":  "Creatio",
+    "Icon":  "PHN2ZyBpZD0iQ29tcG9uZW50XzgzM183IiBkYXRhLW5hbWU9IkNvbXBvbmVudCA4MzMg4oCTIDciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjM4IiBoZWlnaHQ9IjM4IiB2aWV3Qm94PSIwIDAgMzggMzgiPgogIDxjaXJjbGUgaWQ9IkVsbGlwc2VfMTUyNyIgY3g9IjQiIGN5PSI0IiByPSI0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMCAxMykiIGZpbGw9IiNmZmYiLz4KICA8cGF0aCBpZD0iUGF0aF83NTEzIiBkPSJNMTQsMjJhNi45NTcsNi45NTcsMCwwLDEsNyw3SDdBNi45NTcsNi45NTcsMCwwLDEsMTQsMjJaIiBmaWxsPSIjZmZmIi8+CiAgPHJlY3QgaWQ9IlJlY3RhbmdsZV83NTUyIiB3aWR0aD0iMzgiIGhlaWdodD0iMzgiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBpZD0iUGF0aF8xMDE0NiIgZGF0YS1uYW1lPSJQYXRoIDEwMTQ2IiBkPSJNMjMsOC41YTguNTIsOC41MiwwLDAsMC02LjUsM0E2LjA4Nyw2LjA4NywwLDAsMSwyMCwxN2E1LjksNS45LDAsMCwxLTEuNyw0LjJBMTAuMzA3LDEwLjMwNywwLDAsMSwyMywyNS41aDBhOC41LDguNSwwLDAsMCwwLTE3Wm0yLDEyLjNWMjJIMjNWMjAuOGEyLjM2MSwyLjM2MSwwLDAsMS0uOS0uNiwyLjk3NSwyLjk3NSwwLDAsMS0xLTJWMThoMmEuOTA4LjkwOCwwLDAsMCwuMy43Ljg0NC44NDQsMCwwLDAsLjcuMi44ODIuODgyLDAsMCwwLC45LS44YzAtLjYtLjctLjctMS4xLS44LTIuMy0uMy0zLTEuNy0yLjktMi44YTIuOSwyLjksMCwwLDEsMi0yLjRWMTFoMnYxLjJhMi41ODksMi41ODksMCwwLDEsMS4xLjcsMy4xNzYsMy4xNzYsMCwwLDEsLjgsMmwtMi0uMWExLjQyMSwxLjQyMSwwLDAsMC0uMi0uNmMtLjEtLjItLjQtLjItLjYtLjItLjcsMC0xLjEuNC0xLjEuN3MuNS42LDEuMi43YzIuMi4zLDIuOSwxLjgsMi44LDIuOUEyLjgsMi44LDAsMCwxLDI1LDIwLjhaIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=",
+    "IconName":  "icon_153.svg",
+    "Color":  "#512DA8",
+    "MarketplaceLink":  "",
+    "HelpLink":  "",
+    "OrderLink":  "",
+    "SupportEmail":  "",
+    "Version":  "0.0.53",
+    "Packages":  [
+                     {
+                         "UId":  "b2e969d3-e855-b1c2-c844-0ff7e0cba43f",
+                         "Name":  "CrtFinservSalesAndServiceApp"
+                     },
+                     {
+                         "UId":  "9d99e3f1-7489-9510-8751-316aa22bfdd5",
+                         "Name":  "CrtFinservApplication"
+                     },
+                     {
+                         "UId":  "33d126a4-e944-0057-17f1-bf2c4133c73a",
+                         "Name":  "CrtFinservApplicationSources"
+                     },
+                     {
+                         "UId":  "2c40b158-7d46-1e04-68b8-fa1572d2139b",
+                         "Name":  "CrtFinservAccountAndCard"
+                     },
+                     {
+                         "UId":  "01f10d0c-9faf-421e-5820-7af55e921047",
+                         "Name":  "CrtFinservProduct"
+                     },
+                     {
+                         "UId":  "cc3658c9-45f4-df6b-eed7-750e2d67aac2",
+                         "Name":  "CrtFinservProductSources"
+                     },
+                     {
+                         "UId":  "d9f72e8c-9bbe-20f7-73f3-1fa6abc3a5bb",
+                         "Name":  "CrtFinservSpecification"
+                     },
+                     {
+                         "UId":  "30515afc-d191-0b9f-e55e-f37ec6adcee0",
+                         "Name":  "CrtBaseFinserv"
+                     },
+                     {
+                         "UId":  "42b4c05f-6eb4-ba32-8587-99db23437f87",
+                         "Name":  "CrtBaseFinservConsts"
+                     },
+                     {
+                         "UId":  "fb480d02-3bc2-b018-911c-db786eccbef0",
+                         "Name":  "CrtContract"
+                     },
+                     {
+                         "UId":  "13b566ee-2796-51a0-b71b-6e477518f7c4",
+                         "Name":  "CrtProductCatalogue"
+                     },
+                     {
+                         "UId":  "5da6331b-85eb-139e-4cc8-37cf67b03b0f",
+                         "Name":  "CrtRecommendedProduct"
+                     },
+                     {
+                         "UId":  "97a3cc83-ff05-a684-08ba-147d1f8a2209",
+                         "Name":  "CrtDocument"
+                     },
+                     {
+                         "UId":  "4054de5c-91a4-6d40-7fad-e8dff26ee3a8",
+                         "Name":  "CrtSpecification"
+                     },
+                     {
+                         "UId":  "650ba69a-f061-ae66-b69b-aa0708ee0631",
+                         "Name":  "CrtProductBase"
+                     },
+                     {
+                         "UId":  "be00c13d-b597-e5ab-54ca-f0a36648acba",
+                         "Name":  "CrtFinservContract"
+                     },
+                     {
+                         "UId":  "1f6d3128-d0ab-d281-9eca-55466ac60db5",
+                         "Name":  "CrtProductSpecification"
+                     },
+                     {
+                         "UId":  "0586bec3-f177-2d16-cd8a-0393db0e9180",
+                         "Name":  "CrtFinservDocument"
+                     },
+                     {
+                         "UId":  "da450b94-a3f0-b175-6f17-69158c961e84",
+                         "Name":  "CrtContractDocument"
+                     },
+                     {
+                         "UId":  "90474ec6-ed97-8a2a-6376-029df0c60555",
+                         "Name":  "CrtFinservLead"
+                     },
+                     {
+                         "UId":  "d0110611-b5de-21bc-77d8-7c8ea4464688",
+                         "Name":  "CrtFinservOpportunity"
+                     },
+                     {
+                         "UId":  "94637599-7126-73cd-8ba4-e71e49802618",
+                         "Name":  "CrtDocumentInOpportunity"
+                     }
+                 ]
+}

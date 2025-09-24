@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtFinservCstmr360/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtFinservCstmr360/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtFinservCstmr360/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtFinservCstmr360/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtFinservCstmr360/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFinservCstmr360/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFinservCstmr360/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFinservCstmr360/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFinservCstmr360/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFinservCstmr360/Resources/**" />
+		<None Remove="$(PkgPath)/CrtFinservCstmr360/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtFinservCstmr360/Data/**" />
+		<None Remove="$(PkgPath)/CrtFinservCstmr360/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtFinservCstmr360/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtFinservCstmr360/Resources/**" />
+  </ItemGroup>
+</Project>

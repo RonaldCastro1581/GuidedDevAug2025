@@ -1,0 +1,9 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360/Schemas/Contact/Contact.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360/Schemas/Contact/Contact.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360/Schemas/ContactAddress/ContactAddress.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360/Schemas/ContactAddress/ContactAddress.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360/Schemas/Document/Document.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360/Schemas/Document/Document.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360/Schemas/EvaluationHistory/EvaluationHistory.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360/Schemas/EvaluationHistory/EvaluationHistory.cs')" />
+		<Compile Include="$(PkgPath)/CrtFinservCstmr360/Schemas/VwDocumentViewModel/VwDocumentViewModel.cs" Condition="Exists('$(PkgPath)/CrtFinservCstmr360/Schemas/VwDocumentViewModel/VwDocumentViewModel.cs')" />
+	</ItemGroup>
+</Project>

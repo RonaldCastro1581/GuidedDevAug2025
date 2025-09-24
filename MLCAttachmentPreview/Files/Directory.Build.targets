@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/MLCAttachmentPreview/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/MLCAttachmentPreview/Data/**" />
+		<Compile Remove="$(PkgPath)/MLCAttachmentPreview/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/MLCAttachmentPreview/Schemas\**" />
+		<Compile Remove="$(PkgPath)/MLCAttachmentPreview/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLCAttachmentPreview/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLCAttachmentPreview/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLCAttachmentPreview/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLCAttachmentPreview/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLCAttachmentPreview/Resources/**" />
+		<None Remove="$(PkgPath)/MLCAttachmentPreview/Assemblies/**" />
+		<None Remove="$(PkgPath)/MLCAttachmentPreview/Data/**" />
+		<None Remove="$(PkgPath)/MLCAttachmentPreview/SqlScripts/**" />
+		<None Remove="$(PkgPath)/MLCAttachmentPreview/Schemas/**" />
+		<None Remove="$(PkgPath)/MLCAttachmentPreview/Resources/**" />
+  </ItemGroup>
+</Project>
